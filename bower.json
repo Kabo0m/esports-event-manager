@@ -1,11 +1,12 @@
 {
   "name": "esports-event-manager",
-  "version": "1.0.0",
   "description": "An app that enables creation, edition and visualization of events related to esports, while sharing them world wide",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "main": "app/index.html",
+  "authors": [
+    "Daniel Branco",
+    "Jorge Mota"
+  ],
+  "license": "ISC",
   "keywords": [
     "esports",
     "event",
@@ -17,10 +18,15 @@
     "gaming",
     "it"
   ],
-  "authors": [
-    "Daniel Branco",
-    "Jorge Mota"
+  "homepage": "https://github.com/Kabo0m/esports-event-manager",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
   ],
-  "license": "ISC",
-  "homepage": "https://github.com/Kabo0m/esports-event-manager"
+  "dependencies": {
+    "angular": "^1.7.5"
+  }
 }
