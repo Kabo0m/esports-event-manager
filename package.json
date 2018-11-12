@@ -1,0 +1,22 @@
+{
+  "name": "esports-event-manager",
+  "version": "1.0.0",
+  "description": "An app that enables creation, edition and visualization of events related to esports, while sharing them world wide",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "esports",
+    "event",
+    "manager",
+    "people",
+    "connect",
+    "online",
+    "world",
+    "gaming",
+    "it"
+  ],
+  "author": "Daniel Branco & Jorge Mota",
+  "license": "ISC"
+}
