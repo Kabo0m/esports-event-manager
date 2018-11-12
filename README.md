@@ -1,1 +1,1 @@
-# esports-event-manager
+# Esports Event Manager
