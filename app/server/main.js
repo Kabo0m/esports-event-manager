@@ -6,6 +6,10 @@ var express = require('express'),
 
 module.exports = {
 	start: function (appConfig, then) {
+		// initialize api
+		require('.api.js').$init(appConfig, server);
+
+		// initialize server
 		server.use(express.static(appConfig.dist.root));
 		server.listen(config.port);
 
